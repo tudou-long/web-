@@ -1,0 +1,148 @@
+/* 编辑按钮 */
+.edit-button {
+    background: linear-gradient(45deg, #34c759, #5cd85e);
+    font-size: 14px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    height: 35px;
+    line-height: 25px;
+    display: inline-block;
+    user-select: none;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.2s ease;
+
+    &:hover {
+        background: linear-gradient(45deg, #5cd85e, #34c759);
+        transform: scale(1.05);
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+}
+
+/* 取消按钮 */
+.channel-button {
+    background: #f5f5f5;
+    font-size: 14px;
+    padding: 5px 20px;
+    height: 35px;
+    line-height: 25px;
+    border-radius: 5px;
+    display: inline-block;
+    user-select: none;
+    cursor: pointer;
+    color: #1c1c1c;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.2s ease;
+
+    &:hover {
+        background: #dcdcdc;
+        color: #304a99;
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        background: #bfbfbf;
+        transform: translateY(0);
+    }
+
+    &:disabled {
+        background: #ccc;
+        color: #999;
+        cursor: not-allowed;
+        box-shadow: none;
+    }
+}
+
+/* 文字按钮 */
+.text-button {
+    margin-right: 10px;
+    color: rgb(108, 143, 166);
+    cursor: pointer;
+    font-size: 14px;
+    transition: color 0.3s ease, transform 0.2s ease;
+
+    &:hover {
+        color: #2575fc;
+        transform: scale(1.05);
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+}
+
+/* 删除按钮 */
+.delete-button {
+    background: #f1f1f1;
+    font-size: 14px;
+    padding: 5px 20px;
+    height: 35px;
+    line-height: 25px;
+    border-radius: 5px;
+    display: inline-block;
+    user-select: none;
+    cursor: pointer;
+    color: #1c1c1c;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.2s ease;
+
+    &:hover {
+        background: #a7535a;
+        color: #fff;
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        background: #944344;
+        transform: translateY(0);
+    }
+}
+
+/* 主按钮 */
+.primary-button {
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        background: linear-gradient(45deg, #6a11cb, #2575fc);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+}
+
+/* 次要按钮 */
+.secondary-button {
+    background: #fff;
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #2575fc;
+    border: 1px solid #2575fc;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+
+    &:hover {
+        background: #2575fc;
+        color: #fff;
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+}
